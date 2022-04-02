@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "EmployeeUI/1.0.0": {
+        "dependencies": {
+          "EmployeeBusinessLayer": "1.0.0"
+        },
+        "runtime": {
+          "EmployeeUI.dll": {}
+        }
+      },
+      "EmployeeBusinessLayer/1.0.0": {
+        "runtime": {
+          "EmployeeBusinessLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EmployeeUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EmployeeBusinessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
